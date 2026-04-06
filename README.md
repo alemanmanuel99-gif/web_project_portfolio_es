@@ -25,4 +25,4 @@ Técnicas de IA para acelerar el desarrollo y comprensión del código
 
 ## Enlace a GitHub Pages
 
-https://alemanmanuel99-gif.github.io/web_project_potrfolio_es
+https://alemanmanuel99-gif.github.io/web_project_portfolio_es/
