@@ -1,0 +1,62 @@
+.profile__container {
+  display: flex;
+  justify-content: space-between;
+  padding: 40px 120px 100px 120px;
+}
+.elipse-luz__profile {
+  width: 300px;
+  height: 300px;
+  background: radial-gradient(ellipse, #6d6dff, transparent);
+  border-radius: 50%;
+  filter: blur(100px);
+  position: absolute;
+  z-index: -1;
+  margin: 200px 87px 0 0;
+}
+.profile__image {
+  width: 387px;
+  height: 500px;
+  margin-right: 0;
+}
+.profile__title {
+  font-family: "Archivo Black";
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 72px;
+  margin-bottom: 32px;
+  line-height: 100%;
+  margin-bottom: 15px;
+  display: flex;
+  flex-direction: column;
+}
+.profile__subtitle {
+  font-family: "Open Sans";
+  font-weight: 400;
+  color: rgba(225, 225, 225, 0.5);
+  font-size: 18px;
+  line-height: 100%;
+  margin-bottom: 30px;
+}
+.profile__description {
+  font-family: "Open Sans";
+  font-weight: 400;
+  font-size: 18px;
+  font-style: normal;
+  color: #ffffff;
+  width: 793px;
+  height: 150px;
+  margin-bottom: 30px;
+}
+.profile__links {
+  display: flex;
+  gap: 24px;
+}
+.link-underlined {
+  border-bottom: 5px solid;
+  border-image: linear-gradient(90deg, #4c1a97 0%, #6d6dff 100%) 1;
+  text-decoration: none;
+  padding-bottom: 5px;
+  font-family: "Open Sans";
+  font-weight: 600;
+  color: #ffffff;
+}

@@ -1,0 +1,89 @@
+.projects {
+  padding: 0 120px 0 120px;
+}
+.projects-area {
+  display: flex;
+  gap: 20px;
+}
+.projets__title {
+  font-family: "Archivo Black";
+  font-size: 40px;
+  color: #fff;
+  margin-bottom: 50px;
+}
+.project-card__title {
+  color: white;
+  margin-bottom: 20px;
+  margin-top: 0;
+  font-family: "Open Sans";
+  font-weight: 700;
+  font-size: 24px;
+}
+.project-card__description {
+  color: #fff;
+  font-family: "Open Sans";
+  font-size: 18px;
+  margin-bottom: 30px;
+  display: flex;
+  flex-wrap: wrap;
+}
+.project-card {
+  height: 670px;
+  width: 590px;
+  background-color: #1c1c1c;
+}
+.project-card__icon {
+  width: 40px;
+  height: 40px;
+  position: absolute;
+  gap: 10px;
+}
+.project-card__image {
+  position: relative;
+}
+.project-card__icon {
+  position: absolute;
+  left: 12px;
+  bottom: 10px;
+}
+.project-card__icon:last-child {
+  position: absolute;
+  left: 60px;
+}
+.project-card__demo {
+  font-family: "Open Sans";
+  text-decoration: none;
+  font-size: 16px;
+  color: #6d6dff;
+  display: flex;
+  align-items: center;
+  margin-right: 20px;
+}
+.project-card__union {
+  width: 20px;
+  height: 20px;
+  margin-right: 10px;
+}
+.project-card__github {
+  display: flex;
+  align-items: center;
+  font-family: "Open Sans";
+  font-size: 16px;
+  text-decoration: none;
+  color: rgba(225, 225, 225, 0.6);
+}
+.project-card__archor {
+  display: flex;
+}
+.project-card__github__icon {
+  margin-right: 10px;
+}
+.project-card__text {
+  padding: 30px 30px;
+}
+.project-card__archor-bottom {
+  margin-top: 180px;
+}
+.project-card__png {
+  aspect-ratio: 16:9;
+}
